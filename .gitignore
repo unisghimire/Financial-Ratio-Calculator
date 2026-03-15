@@ -1,0 +1,113 @@
+# =============================================================================
+# Financial Ratio Calculator - .gitignore
+# Standard ignores for a public React/Vite/Node.js repo on GitHub.
+# =============================================================================
+
+# -----------------------------------------------------------------------------
+# Dependencies
+# -----------------------------------------------------------------------------
+node_modules/
+
+# -----------------------------------------------------------------------------
+# Build & output
+# -----------------------------------------------------------------------------
+dist/
+build/
+*.local
+
+# Vite
+.vite/
+
+# -----------------------------------------------------------------------------
+# Environment & secrets (never commit credentials)
+# -----------------------------------------------------------------------------
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env*.local
+
+# -----------------------------------------------------------------------------
+# Logs & debugging
+# -----------------------------------------------------------------------------
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# -----------------------------------------------------------------------------
+# Testing & coverage
+# -----------------------------------------------------------------------------
+coverage/
+*.lcov
+.nyc_output/
+
+# -----------------------------------------------------------------------------
+# IDE & editors
+# -----------------------------------------------------------------------------
+# VS Code
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+
+# JetBrains (WebStorm, etc.)
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Cursor
+.cursor/
+
+# Vim
+*.swp
+*.swo
+*~
+
+# -----------------------------------------------------------------------------
+# OS files
+# -----------------------------------------------------------------------------
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# -----------------------------------------------------------------------------
+# Optional / misc
+# -----------------------------------------------------------------------------
+# Optional npm cache (can be committed in some setups; usually ignored)
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional stylelint cache
+.stylelintcache
+
+# Temporary files
+*.tmp
+*.temp
+.temp/
+tmp/
+temp/
+
+# Lockfiles: uncomment if you want to ignore (not recommended for apps)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
