@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Outfit:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg-primary: #0d1321;
+  --bg-card: #172033;
+  --accent: #34d399;
+  --accent-muted: #10b981;
+  --text-primary: #f1f5f9;
+  --text-muted: #94a3b8;
+}
+
+body {
+  font-family: 'DM Sans', system-ui, sans-serif;
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  min-height: 100vh;
+}
+
+.font-display {
+  font-family: 'Outfit', system-ui, sans-serif;
+}
